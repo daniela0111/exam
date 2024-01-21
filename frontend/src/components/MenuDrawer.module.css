@@ -1,0 +1,11 @@
+.menu-drawer {
+    width: 80%;
+  }
+
+.menu-list-item {
+    cursor: pointer;
+    list-style-type: none;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 22px;
+}

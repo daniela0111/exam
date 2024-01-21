@@ -1,0 +1,39 @@
+/* src/components/Navbar.module.css */
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .logos{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navLink {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navLink:hover {
+    background-color: #555;
+  }
